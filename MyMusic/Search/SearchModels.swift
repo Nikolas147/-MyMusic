@@ -1,0 +1,34 @@
+//
+//  SearchModels.swift
+//  MyMusic
+//
+//  Created by Aleksey on 07/10/2019.
+//  Copyright (c) 2019 Aleksey. All rights reserved.
+//
+
+import UIKit
+
+enum Search {
+   
+  enum Model {
+    struct Request {
+      enum RequestType {
+        case some
+        case getTracks
+      }
+    }
+    struct Response {
+      enum ResponseType {
+        case some
+        case presentTracks
+      }
+    }
+    struct ViewModel {
+      enum ViewModelData {
+        case some
+        case displayTracks
+      }
+    }
+  }
+  
+}
