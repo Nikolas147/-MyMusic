@@ -17,14 +17,14 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HoZ-MO-yWG">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="TlO-IK-gJW" id="nns-0r-2gU"/>
                                     <outlet property="delegate" destination="TlO-IK-gJW" id="9TY-gA-LNw"/>
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="pL3-1M-z4D" firstAttribute="bottom" secondItem="HoZ-MO-yWG" secondAttribute="bottom" id="2UR-qj-ja2"/>
                             <constraint firstItem="HoZ-MO-yWG" firstAttribute="leading" secondItem="pL3-1M-z4D" secondAttribute="leading" id="JZG-wb-Vcd"/>
